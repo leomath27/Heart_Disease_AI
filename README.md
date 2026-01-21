@@ -1,4 +1,4 @@
-# Heart_disease_AI — Heart Disease Risk Predictor (React + Flask)
+# Heart_Disease_AI — Heart Disease Risk Predictor (React + Flask)
 
 This project is a **demo** web app that lets a user enter health metrics and get a **risk estimate** from a trained ML model.
 
