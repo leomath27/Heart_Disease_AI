@@ -1,0 +1,66 @@
+.stats-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  color: #fff;
+}
+
+h1, h2 {
+  margin-bottom: 16px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.stat-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.metrics-table td {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.confusion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.conf-cell {
+  background: #222;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-bars {
+  margin-top: 10px;
+}
+
+.bar-row {
+  margin-bottom: 12px;
+}
+
+.bar {
+  background: #333;
+  height: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #4caf50;
+}
